@@ -5,7 +5,7 @@ function HeaderButton() {
   const themeContext = React.useContext(ThemeContext)
   return (
     <div>
-      <button style={themeContext.black}>Press me</button>
+      <button style={themeContext}>Press me</button>
     </div>
   );
 }
